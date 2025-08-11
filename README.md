@@ -1,4 +1,4 @@
-# Matlab demonstration on Simplified Bias and Gravity Compensation for Wrist-Mounted F/T sensor
+ # Matlab demonstration on Simplified Bias and Gravity Compensation for Wrist-Mounted F/T sensor
 
 The orientation is recorded as [x,y,z,w] format.
 
@@ -16,7 +16,7 @@ There are several MATLAB codes for prototyping validation and analysis.
 Requirements: robotics toolbox
 
 1. `gravity_estimated.m`: Prototype code for proposed LSM-short method.
-2. `gravity_estimated_six_methods.m`: K-fold cross-valid on 100 sample datas with 6 different methods.
+2. `gravity_estimated_six_methods.m`: Monte Carlo cross-validation(MCCV) on 100 sample datas with 6 different methods.
    > The Grobner methods is refereing to this repo: [Grobner Solver](https://github.com/Chastj/non-contact-force-compensation-with-wrist-mounted-f-t-sensor)
 3. `drifting_show.m`: Showing the sensor temperature drifting.
 4. `gravity_pose_drifting_show.m`: Showing the sensor response and drifting when changed a new poses and static standing several seconds.
