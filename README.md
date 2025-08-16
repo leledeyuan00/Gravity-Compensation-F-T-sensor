@@ -1,4 +1,8 @@
- # Matlab demonstration on Simplified Bias and Gravity Compensation for Wrist-Mounted F/T sensor
+ # Matlab & Python demonstration on Simplified Bias and Gravity Compensation for Wrist-Mounted F/T sensor
+
+## ATI sensor
+We are using the ATI axis-80 EnterCAT f/t sensor. By using a Docker package, we can utilize it with ROS2, thereby avoiding Linux sudo privileges and ROS command conflicts.
+Following [ATI-EtherCAT ROS2](https://github.com/smartrobotsdesignlab/ATI_ROS2)
 
 The orientation is recorded as [x,y,z,w] format.
 
